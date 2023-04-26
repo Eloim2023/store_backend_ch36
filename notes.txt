@@ -1,0 +1,24 @@
+# check python version
+python3 --version
+
+# run script
+python3 name.py
+
+# install a plugin/package/module
+python3 -m pip install <NAME>
+
+# install example:
+python3 -m pip install virtualenv
+
+# create a virtual env
+python3 -m venv venv
+
+# activate virutal env
+mac:
+source venv/bin/activate
+
+win:
+venv\Scripts\activate
+
+#installs from the server
+py -m pip install flask flask_cors pymongo "pymongo[srv]" certifi
