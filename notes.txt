@@ -22,3 +22,26 @@ venv\Scripts\activate
 
 #installs from the server
 py -m pip install flask flask_cors pymongo "pymongo[srv]" certifi
+
+#run flask server:
+flask --app  server.py --debug run
+
+## GIT
+
+# init repo
+git init
+
+# setup the remove
+git remote add origin <URL>
+
+# create commits
+git add .
+git commit -m "SOMETHING"
+
+
+# push [first time]
+git push -u origin main     <- or master
+
+
+# push [nth times]
+git push
